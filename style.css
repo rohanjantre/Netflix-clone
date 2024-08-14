@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    background-image: url(mainimagenetflix.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    position: absolute;
+    top: 0px;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+}
+
+nav {
+
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding: 23px;
+
+
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* /* .line{
+    position: relative;
+    top:-107px;
+    height: 2px;
+    background-color:gray;
+    z-index: auto; */
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.4);
+    color: white;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.frist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+    height:45vh ;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImg video {
+    position: absolute;
+    top: 35px;
+    left: 34px;
+}
+
+.frist span:first-child {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.frist span:nth-child(2) {
+    font-size: 20px;
+}
+
+/* .line2{
+    position: relative;
+    z-index: 10;
+    top:52px;
+    height: 2px;
+    background-color:gray; */
+
+#secImg2 {
+    position: relative;
+    top: 33px;
+    left: 20px;
+}
+
+.line {
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    top: -333px;
+
+}
+
+.line2 {
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    top: -680px;
+}
